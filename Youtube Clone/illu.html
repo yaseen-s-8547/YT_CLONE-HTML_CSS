@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Display Demo</title>
+<style>
+  .block {
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+  }
+
+  .inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+    margin-right: 5px;
+  }
+
+  .inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 5px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px; /* vertical centering */
+  }
+
+  .inline-block-vert {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: purple;
+    vertical-align: top; /* try top, middle, bottom */
+    margin-right: 5px;
+    text-align: center;
+    line-height: 50px;
+  }
+</style>
+</head>
+<body>
+
+<h2>Display: block</h2>
+<div class="block">Block 1</div>
+<div class="block">Block 2</div>
+
+<h2>Display: inline</h2>
+<span class="inline">Inline 1</span>
+<span class="inline">Inline 2</span>
+<span class="inline">Inline 3</span>
+
+<h2>Display: inline-block</h2>
+<div class="inline-block">IB 1</div>
+<div class="inline-block">IB 2</div>
+<div class="inline-block">IB 3</div>
+
+<h2>Inline-block with Vertical Align</h2>
+<div class="inline-block-vert">Top</div>
+<div class="inline-block-vert" style="height: 80px; background: teal; vertical-align: middle;">Middle</div>
+<div class="inline-block-vert" style="height: 60px; background: pink; vertical-align: bottom;">Bottom</div>
+
+</body>
+</html>
