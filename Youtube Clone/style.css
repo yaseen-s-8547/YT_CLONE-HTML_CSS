@@ -193,5 +193,39 @@ body {
   flex-direction:row;
   align-items: center;
   justify-content: center;
+  background-color: black;
+  margin-right: 106px;
 }
+.search{
+    width: 600px;
+    height: 38px;
+    border-bottom-left-radius: 21px;
+    border-top-left-radius: 21px;
+    border: 1px solid  hsla(0, 0%, 100%, .08);
+    padding-left: 15px;
+    background-color: hsla(0, 0%, 100%, .08);
+  }
+  .fa-magnifying-glass{
+    height: 10px;
+    color:rgb(248, 242, 242);
+    margin-left: -4px;
+    font-size: 18px;
+  
+  }
+  .lense{
+    width: 60px;
+    height: 38px;
+    border: 1px solid hsl(0, 0%, 18.82%);
+    background-color: hsla(0, 0%, 100%, .08);
+    
+    border-bottom-right-radius: 21px;
+    border-top-right-radius: 21px;
+  }
+  .voice{
+    width: 60px;
+    height: 38px;
+    border-radius: 200px;
+
+  }
+
 
