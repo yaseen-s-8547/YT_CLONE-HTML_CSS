@@ -7,7 +7,12 @@
 body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
-  color: azure
+  color: azure;
+  max-width: 100vw;
+  max-height: 100vh;
+  height:100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .thumbnail {
@@ -141,25 +146,19 @@ body {
 }
 .header{
   background-color:black;
-  width:100%;
+  max-width:100%;
+ 
   height: 70px;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left:100px;
-  padding: 0 20px; 
+ 
+  
+  padding: 0 0px; 
 }
 
-.search-box{
-  width:500px;
-  flex:1;
-  background-color: aliceblue;
-}
-.icons{
-  background-color: green;
-  width:250px;
- 
-}
+
+
 .fa-youtube{
   font-size: 33px;
 }
@@ -194,8 +193,12 @@ body {
   align-items: center;
   justify-content: center;
   background-color: black;
-  margin-right: 106px;
+   width:500px;
+  flex: 1;
+  
 }
+  
+
 .search{
     width: 600px;
     height: 38px;
@@ -217,15 +220,84 @@ body {
     height: 38px;
     border: 1px solid hsl(0, 0%, 18.82%);
     background-color: hsla(0, 0%, 100%, .08);
-    
     border-bottom-right-radius: 21px;
     border-top-right-radius: 21px;
   }
   .voice{
-    width: 60px;
-    height: 38px;
-    border-radius: 200px;
+    width: 41px;
+    height: 42px;
+    margin-left:20px;
+    border-radius: 100px;
+    margin-top: 4px;
+    background-color: hsla(0, 0%, 100%, .08);
+    border: none;
+  }
+  .fa-microphone{
+    color:rgb(248, 242, 242);
+    font-size: 17px;
 
   }
+
+.icons{
+  background-color: hsla(0, 0%, 0%, 0.988);
+  width: 15%;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-between;
+  margin: 0;
+  padding: 0;
+}
+
+
+.create-button{
+    height: 39px;
+    font-size: 14px;
+    line-height: 36px;
+    width: 97px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: hsla(0, 0%, 100%, .08);
+    border: 1px solid hsl(0, 0%, 18.82%);
+}
+.extra-space{
+  background-color: black;
+  width:50px;
+}
+.fa-plus{
+ font-size:20px;
+ color: white;
+ margin-right: 4px;
+ 
+}
+.nob{
+  font-weight: bold;
+}
+
+.bell{
+  height:30px;
+  width:50px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  
+}
+  
+
+.fa-bell{
+  font-size: 28px;
+  color: white;
+}
+.profilee{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  border: 7px #d5c1c1;
+}
+
+ 
 
 
